@@ -277,6 +277,7 @@ namespace Jogo_da_Forca
 			this.button_K.Text = "K";
 			this.button_K.UseVisualStyleBackColor = true;
 			this.button_K.Visible = false;
+			this.button_K.Click += new System.EventHandler(this.Button_KClick);
 			// 
 			// button_S
 			// 

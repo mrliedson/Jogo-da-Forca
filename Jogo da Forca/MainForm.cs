@@ -122,6 +122,8 @@ namespace Jogo_da_Forca
 			}
 			if (tentativas == 0) {
 				dar(false);
+				label3.Text = "você ficou sem tentivas, chute a palavra";
+				
 			}
 		}
 		
@@ -194,7 +196,6 @@ namespace Jogo_da_Forca
 			
 				textBox1.Text = "";
 				textBox1.MaxLength = palavra.Length;
-				button2.Visible = true;
 				panel1.Visible = true;
 				label6.Visible = true;
 				label7.Visible = true;
@@ -205,10 +206,12 @@ namespace Jogo_da_Forca
 			} else {
 				if (textBox1.Text.ToUpper() == palavra){
 					label3.Text = "Parabéns! A palavra era " + palavra;
+					button2.Visible = true;
 					
 					
 				} else {
 					label3.Text = "Errou! A palavra era " + palavra;
+					button2.Visible = true;
 					
 				}
 				button3.Enabled = false;
@@ -270,6 +273,11 @@ namespace Jogo_da_Forca
 		}
 		
 		void Button_JClick(object sender, EventArgs e)
+		{
+			letra('J',  sender as Button);
+		}
+		
+		void Button_KClick(object sender, EventArgs e)
 		{
 			letra('K',  sender as Button);
 		}
@@ -348,5 +356,6 @@ namespace Jogo_da_Forca
 		{
 			letra('Z',  sender as Button);
 		}
+		
 	}
 }

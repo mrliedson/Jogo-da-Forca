@@ -5,3 +5,10 @@ D:\PA(Programação Algoritimo)\SharpDevelop Projects\Jogo da Forca\Jogo da Forc
 D:\PA(Programação Algoritimo)\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo da Forca.csproj.GenerateResource.Cache
 D:\PA(Programação Algoritimo)\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo da Forca.exe
 D:\PA(Programação Algoritimo)\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo da Forca.pdb
+C:\Users\aliss\OneDrive\Documentos\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\bin\Debug\Jogo da Forca.exe
+C:\Users\aliss\OneDrive\Documentos\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\bin\Debug\Jogo da Forca.pdb
+C:\Users\aliss\OneDrive\Documentos\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo da Forca.csprojResolveAssemblyReference.cache
+C:\Users\aliss\OneDrive\Documentos\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo_da_Forca.MainForm.resources
+C:\Users\aliss\OneDrive\Documentos\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo da Forca.csproj.GenerateResource.Cache
+C:\Users\aliss\OneDrive\Documentos\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo da Forca.exe
+C:\Users\aliss\OneDrive\Documentos\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo da Forca.pdb
