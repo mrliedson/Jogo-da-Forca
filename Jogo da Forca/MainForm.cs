@@ -95,7 +95,6 @@ namespace Jogo_da_Forca
 			for(int i=0; i<palavra.Length; i++){
 				if(palavra[i] == letra){
 					cont = true;
-					botao.BackColor = Color.Green;
 					if (i == 0){
 						char[] A = label2.Text.ToCharArray();
 						A[i] = letra;
@@ -113,9 +112,9 @@ namespace Jogo_da_Forca
 				button3.Enabled = false;
 				textBox1.Enabled = false;
 				dar(false);
+				button2.Visible = true;
 			}
 			if (cont == false){
-				botao.BackColor = Color.Red;
 				listBox2.Items.Add(letra+",");
 				tentativas = tentativas - 1;
 				label6.Text = tentativas.ToString();
@@ -123,6 +122,7 @@ namespace Jogo_da_Forca
 			if (tentativas == 0) {
 				dar(false);
 				label3.Text = "você ficou sem tentivas, chute a palavra";
+				button2.Visible = true;
 				
 			}
 		}
