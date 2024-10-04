@@ -1,0 +1,7 @@
+D:\PA(Programação Algoritimo)\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\bin\Debug\Jogo da Forca.exe
+D:\PA(Programação Algoritimo)\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\bin\Debug\Jogo da Forca.pdb
+D:\PA(Programação Algoritimo)\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo da Forca.csprojResolveAssemblyReference.cache
+D:\PA(Programação Algoritimo)\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo_da_Forca.MainForm.resources
+D:\PA(Programação Algoritimo)\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo da Forca.csproj.GenerateResource.Cache
+D:\PA(Programação Algoritimo)\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo da Forca.exe
+D:\PA(Programação Algoritimo)\SharpDevelop Projects\Jogo da Forca\Jogo da Forca\obj\Debug\Jogo da Forca.pdb
