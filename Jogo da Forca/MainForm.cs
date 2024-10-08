@@ -29,6 +29,37 @@ namespace Jogo_da_Forca
 			InitializeComponent();
 			
 		}
+		
+		void corBotao(){
+			button_A.BackColor = Color.Gainsboro;
+			button_B.BackColor = Color.Gainsboro;
+			button_C.BackColor = Color.Gainsboro;
+			button_D.BackColor = Color.Gainsboro;
+			button_E.BackColor = Color.Gainsboro;
+			button_F.BackColor = Color.Gainsboro;
+			button_G.BackColor = Color.Gainsboro;
+			button_H.BackColor = Color.Gainsboro;
+			button_I.BackColor = Color.Gainsboro;
+			button_J.BackColor = Color.Gainsboro;
+			button_K.BackColor = Color.Gainsboro;
+			button_L.BackColor = Color.Gainsboro;
+			button_M.BackColor = Color.Gainsboro;
+			button_N.BackColor = Color.Gainsboro;
+			button_O.BackColor = Color.Gainsboro;
+			button_P.BackColor = Color.Gainsboro;
+			button_Q.BackColor = Color.Gainsboro;
+			button_R.BackColor = Color.Gainsboro;
+			button_S.BackColor = Color.Gainsboro;
+			button_T.BackColor = Color.Gainsboro;
+			button_U.BackColor = Color.Gainsboro;
+			button_V.BackColor = Color.Gainsboro;
+			button_W.BackColor = Color.Gainsboro;
+			button_X.BackColor = Color.Gainsboro;
+			button_Y.BackColor = Color.Gainsboro;
+			button_Z.BackColor = Color.Gainsboro;
+		
+		
+		}
 	
 		void dar(bool neutro){
 			button_A.Enabled = neutro;
@@ -99,15 +130,17 @@ namespace Jogo_da_Forca
 						char[] A = label2.Text.ToCharArray();
 						A[i] = letra;
 						label2.Text = new string(A);
+						
 					} else {
 						char[] A = label2.Text.ToCharArray();
 						A[i+i] = letra;
 						label2.Text = new string(A);
 					}
-					
+					botao.BackColor = Color.Green;
 				}
 			}
 			if(!label2.Text.Contains("_")){
+				label3.ForeColor = Color.Green;
 				label3.Text = "Parabéns! A palavra era " + palavra;
 				button3.Enabled = false;
 				textBox1.Enabled = false;
@@ -115,12 +148,15 @@ namespace Jogo_da_Forca
 				button2.Visible = true;
 			}
 			if (cont == false){
+				botao.BackColor = Color.Red;
 				listBox2.Items.Add(letra+",");
 				tentativas = tentativas - 1;
 				label6.Text = tentativas.ToString();
+				
 			}
 			if (tentativas == 0) {
 				dar(false);
+				label3.ForeColor = Color.Red;
 				label3.Text = "você ficou sem tentivas, chute a palavra";
 				button2.Visible = true;
 				
@@ -136,10 +172,6 @@ namespace Jogo_da_Forca
 			button3.Text = "CONFIRMAR";
 			button3.Enabled = true;
 			textBox1.Enabled = true;
-			for(int i =0; i<botoesColoridos.Length; i++){
-				botoesColoridos[i].BackColor = Color.Gainsboro;
-				Array.Clear(botoesColoridos,0, botoesColoridos.Length);
-			}
 			
 			
 			
@@ -147,6 +179,9 @@ namespace Jogo_da_Forca
 		
 		void Button2Click(object sender, EventArgs e)
 		{
+			corBotao();
+			label3.ForeColor = Color.Black;
+			label6.Text = "6";
 			label1.Visible = false;
 			label2.Visible = false;
 			label3.Visible = false;
@@ -205,11 +240,13 @@ namespace Jogo_da_Forca
 				
 			} else {
 				if (textBox1.Text.ToUpper() == palavra){
+					label3.ForeColor = Color.Green;
 					label3.Text = "Parabéns! A palavra era " + palavra;
 					button2.Visible = true;
 					
 					
 				} else {
+					label3.ForeColor = Color.Red;
 					label3.Text = "Errou! A palavra era " + palavra;
 					button2.Visible = true;
 					
